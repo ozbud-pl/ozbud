@@ -6,6 +6,8 @@ plugins_dir:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+markdown: GFM
+
 title: "Generalny Wykonawca" # the name of your site, e.g. ACME Corp.
 tagline: "An awesome tagline"
 email: your.email@gmail.com
