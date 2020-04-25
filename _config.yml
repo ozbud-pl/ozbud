@@ -6,7 +6,7 @@ plugins_dir:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-markdown: GFM
+markdown: kramdown
 
 title: "Generalny Wykonawca" # the name of your site, e.g. ACME Corp.
 tagline: "An awesome tagline"
