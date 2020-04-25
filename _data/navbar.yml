@@ -1,0 +1,12 @@
+- name: O NAS
+  link: /o_nas
+- name: OFERTA
+  link: /oferta
+- name: REALIZACJE
+  link: /realizacje
+- name: KARIERA
+  link: /kariera
+- name: AKTUALNOŚCI
+  link: /aktualnosci
+- name: KONTAKT
+  link: /kontakt
