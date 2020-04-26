@@ -97,7 +97,7 @@ title: OZBUD
     </div>
     <div class="container-fluid text-dark">
       <div class="row">
-        <div class="col-md p.0">
+        <div class="col-md no-padding">
           <picture>
             <source srcset="assets/img/1000x400/hala-poczta-polska.jpg" media="(min-width: 1650px)">
             <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1000px)">

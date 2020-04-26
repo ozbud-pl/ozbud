@@ -4,7 +4,7 @@
 @import 'bootstrap/bootstrap';
 
 .bg-dark {
-    background-color: rgba(170, 168, 168, 0.7) !important;
+    background-color: rgba(170, 168, 168, 0.9) !important;
 }
 
 .navbar-brand {
@@ -71,7 +71,7 @@ Forces carousel image to be 100% width and not max width of 100%
 
 .btn-primary {
     color: #fff;
-    background-color: rgba(170, 168, 168, 0.7);
+    background-color: rgba(170, 168, 168, 0.9);
     backdrop-filter: saturate(180%) blur(20px);
     border: none;
     border-radius: 7px;
@@ -79,14 +79,14 @@ Forces carousel image to be 100% width and not max width of 100%
 
 .btn-primary:hover {
     color: #fff;
-    background-color: rgba(102, 102, 102, 0.7);
+    background-color: rgba(102, 102, 102, 0.9);
     backdrop-filter: saturate(180%) blur(20px);
     border: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: rgba(102, 102, 102, 0.7);
+    background-color: rgba(102, 102, 102, 0.9);
     backdrop-filter: saturate(180%) blur(20px);
     border: none;
 }
@@ -140,7 +140,7 @@ h1, .h1 {
 
 .page-footer {
     color: #ffffff;
-    background-color: rgba(170, 168, 168, 0.7);
+    background-color: rgba(170, 168, 168, 0.9);
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -150,4 +150,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.no-padding {
+    padding: 0px;
 }
