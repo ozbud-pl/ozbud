@@ -3,7 +3,7 @@ layout: default
 title: OZBUD
 ---
 
-<div class="container-fluid">
+<div class="container-fluid no-padding">
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -99,15 +99,15 @@ title: OZBUD
     <div class="row">
       <div class="col-md no-padding">
         <picture>
-          <source srcset="assets/img/1000x400/hala-poczta-polska.jpg" media="(min-width: 1650px)">
-          <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1000px)">
+          <source srcset="assets/img/1000x400/hala-poczta-polska.jpg" media="(min-width: 1600px)">
+          <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1100px)">
           <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 700px)">
           <img class="img-fluid d-block" src="assets/img/600x800/hala-poczta-polska.jpg" alt="hala-poczta-polska">
         </picture>
       </div>
       <div class="col-md text-center">
         <h2>Budynki Przemysłowe</h2>
-        <div class="row">
+        <div class="row text-justify">
           <div class="col-sm">
           <h4>Budujemy dla przemysłu</h4>
           <p>Nasze standardy jakościowe spełniaj wymagania najbardziej wymagajcych klientów z sektora przemysłowego. Dzięki umiejętności prowadzenie plac budowlanych na czynnych obiektach, od lat współpracujemy z parterami takimi jak Volvo czy Bombardier. Dopasujemy się do każdego środowiska pracy.</p>
