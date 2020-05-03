@@ -1,26 +1,31 @@
 $(document).ready(function(){
     $('.customer-logos').slick({
-        slidesToShow: 9,
-        slidesToScroll: 1,
+        slidesToShow: 10,
+        slidesToScroll: 2,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2500,
         arrows: false,
         dots: false,
-        pauseOnHover: false,
+        pauseOnHover: true,
         responsive: [{
-            breakpoint: 1400,
+            breakpoint: 1700,
             settings: {
-                slidesToShow: 6
+                slidesToShow: 8
             }
             }, {
-            breakpoint: 768,
+                breakpoint: 1300,
+                settings: {
+                    slidesToShow: 6
+                }
+                },{
+            breakpoint: 1000,
             settings: {
                 slidesToShow: 4
             }
         }, {
             breakpoint: 520,
             settings: {
-                slidesToShow: 3
+                slidesToShow: 2
             }
         }]
     });
