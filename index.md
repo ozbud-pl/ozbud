@@ -127,9 +127,25 @@ title: OZBUD
       <div class="slide"><img src="assets/img/logo/bombardier.png"></div>
       <div class="slide"><img src="assets/img/logo/inkom.png"></div>
       <div class="slide"><img src="assets/img/logo/3M.png"></div>
-      <div class="slide"><img src="assets/img/logo/technisat.png"></div>
+      <div class="slide"><img src="assets/img/logo/aliaxis.png"></div>
+      <div class="slide"><img src="assets/img/logo/danfoss.png"></div>
+      <div class="slide"><img src="assets/img/logo/delaval.png"></div>
       <div class="slide"><img src="assets/img/logo/dozamel.png"></div>
+      <div class="slide"><img src="assets/img/logo/kerry.png"></div>
       <div class="slide"><img src="assets/img/logo/kessel.png"></div>
+      <div class="slide"><img src="assets/img/logo/m+w_group.png"></div>
+      <div class="slide"><img src="assets/img/logo/nicoll.png"></div>
+      <div class="slide"><img src="assets/img/logo/poczta-polska.png"></div>
+      <div class="slide"><img src="assets/img/logo/policja.png"></div>
+      <div class="slide"><img src="assets/img/logo/pwr.png"></div>
+      <div class="slide"><img src="assets/img/logo/kessel.png"></div>
+      <div class="slide"><img src="assets/img/logo/sca.png"></div>
+      <div class="slide"><img src="assets/img/logo/technisat.png"></div>
+      <div class="slide"><img src="assets/img/logo/upwr.png"></div>
+      <div class="slide"><img src="assets/img/logo/wpt.png"></div>
+      <div class="slide"><img src="assets/img/logo/uniwr.png"></div>
+      <div class="slide"><img src="assets/img/logo/cooper-standard.png"></div>
+      <div class="slide"><img src="assets/img/logo/stowarzyszenie-sw-magdaleny.png"></div>
    </section>
   </div>
 </div>
