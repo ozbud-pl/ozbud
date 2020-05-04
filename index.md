@@ -9,7 +9,7 @@ title: OZBUD
   {% include carousel.html %}
 
   <!-- CONTENTS -->
-  <div class="container text-dark text-center">
+  <div class="container text-dark text-center text-uppercase">
   <h1>Generalny Wykonawca</h1>
   </div>
   <div class="container-fluid text-dark">
@@ -37,7 +37,9 @@ title: OZBUD
       </div>
     </div>
   </div>
-
+  <div class="container text-dark text-center text-uppercase mt-4">
+    <h1>Zaufali Nam</h1>
+  </div>
   <!-- SLIDER -->
   {% include slider.html %}
 

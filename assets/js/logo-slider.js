@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.customer-logos').slick({
+        speed: 2000,
         slidesToShow: 10,
         slidesToScroll: 2,
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 2000,
         arrows: false,
         dots: false,
         pauseOnHover: true,
