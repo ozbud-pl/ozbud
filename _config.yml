@@ -6,6 +6,8 @@ plugins_dir:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+incremental: true
+
 markdown: kramdown
 
 title: "Generalny Wykonawca" # the name of your site, e.g. ACME Corp.
@@ -20,3 +22,6 @@ google_analytics: UA-111111111-1
 twitter:
   username:
   card: summary #keep this to generate a twitter share card
+
+exclude:
+  - .jekyll-cache

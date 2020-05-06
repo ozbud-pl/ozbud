@@ -19,7 +19,7 @@ title: OZBUD
           <source srcset="assets/img/1000x400/hala-poczta-polska.jpg" media="(min-width: 1600px)">
           <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1100px)">
           <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 700px)">
-          <img class="img-fluid d-block" src="assets/img/600x800/hala-poczta-polska.jpg" alt="hala-poczta-polska">
+          <img class="img-fluid d-block w-100" src="assets/img/600x800/hala-poczta-polska.jpg" alt="hala-poczta-polska">
         </picture>
       </div>
       <div class="col-md text-center">

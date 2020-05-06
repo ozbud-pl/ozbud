@@ -93,6 +93,13 @@ Forces carousel image to be 100% width and not max width of 100%
     border: none;
 }
 
+button:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-color: #fff;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(170, 168, 168, 0.5);
 }
