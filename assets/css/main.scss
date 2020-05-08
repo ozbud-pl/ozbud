@@ -72,6 +72,10 @@ Forces carousel image to be 100% width and not max width of 100%
     border-radius: 50%;
 }
 
+.carousel-inner .item {
+    backface-visibility: visible;
+}
+
 .btn-primary {
     color: #fff;
     background-color: rgba(170, 168, 168, 0.9);
