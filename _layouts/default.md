@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "assets/css/main.css" }}">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://use.typekit.net/lif4sjl.css">
     <!--- FAVICON --->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
