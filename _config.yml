@@ -10,6 +10,10 @@ incremental: true
 
 markdown: kramdown
 
+collections:
+  portfolio:
+    output: true
+
 title: "Generalny Wykonawca" # the name of your site, e.g. ACME Corp.
 tagline: "An awesome tagline"
 email: your.email@gmail.com
