@@ -10,11 +10,7 @@ incremental: true
 
 markdown: kramdown
 
-collections:
-  portfolio:
-    output: true
-
-baseurl: "/ozbud"
+baseurl: /ozbud
 title: "Generalny Wykonawca" # the name of your site, e.g. ACME Corp.
 tagline: "An awesome tagline"
 email: your.email@gmail.com
@@ -30,3 +26,7 @@ twitter:
 
 exclude:
   - .jekyll-cache
+
+collections:
+  portfolio:
+    output: true
