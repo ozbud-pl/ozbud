@@ -10,7 +10,6 @@ incremental: true
 
 markdown: kramdown
 
-baseurl: /ozbud
 title: "Generalny Wykonawca" # the name of your site, e.g. ACME Corp.
 tagline: "An awesome tagline"
 email: your.email@gmail.com
@@ -18,7 +17,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  Add description here
 author: name
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ozbud" # the subpath of your site, e.g. /blog
 google_analytics: UA-111111111-1
 twitter:
   username:
