@@ -5,8 +5,9 @@ plugins_dir:
   - jekyll-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
-incremental: true
+incremental: false
 
 markdown: kramdown
 
@@ -29,3 +30,6 @@ exclude:
 collections:
   portfolio:
     output: true
+
+paginate: 12
+paginate_path: "/aktualnosci/page:num/"

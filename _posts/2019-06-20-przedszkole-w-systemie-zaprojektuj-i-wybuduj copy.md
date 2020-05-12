@@ -1,7 +1,7 @@
 ---
 layout: default
-title:  "Kooperatywa na Nowych Żernikach - Wuwa 2"
-feat-img: /kooperatywa-na-nowych-żernikach-wuwa-2_01.jpg
+title:  "Przedszkole w systemie ''Zaprojektuj i Wybuduj''"
+feat-img: /przedszkole-zaprojektuj-i-wybuduj-okulickiego_01.jpg
 ---
 
 <div class="container pt-navbar">
