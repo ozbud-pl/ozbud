@@ -1,0 +1,41 @@
+---
+layout: default
+title: Aktualności
+---
+
+<div class="container-fluid pt-navbar">
+    <div class="row grid">
+      {% for post in paginator.posts %}
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12 grid-item {{post.msn-class}}">
+            <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}" href="{{ site.baseurl }}{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Poprzednia</a>
+  {% else %}
+    <span>&laquo; Poprzednia</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Następna &raquo;</a>
+  {% else %}
+    <span>Następna &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
