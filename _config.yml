@@ -28,8 +28,15 @@ exclude:
   - .jekyll-cache
 
 collections:
-  portfolio:
+  przemyslowe:
     output: true
+  zabytkowe:
+    output: true
+  mieszkaniowe:
+    output: true
+  publiczne:
+    output: true
+  collections_dir: realizacje
 
 paginate: 12
 paginate_path: "/aktualnosci/page:num/"
