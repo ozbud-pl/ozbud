@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/lif4sjl.css">
     <!--- FAVICON --->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#9d9c9d">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/favicon-16x16.png">
+    <link rel="manifest" href="{{site.baseurl}}/site.webmanifest">
+    <link rel="mask-icon" href="{{site.baseurl}}/safari-pinned-tab.svg" color="#9d9c9d">
     <meta name="msapplication-TileColor" content="#9d9c9d">
     <meta name="theme-color" content="#9d9c9d">
     {% seo %}

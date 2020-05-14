@@ -4,10 +4,10 @@ title: Aktualności
 ---
 
 <div class="container-fluid pt-navbar">
-    <div class="row">
+    <div class="row grid">
       {% for post in paginator.posts %}
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}" href="{{ site.baseurl }}{{ post.url }}">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12 grid-item {{post.msn-class}}">
+            <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}" href="{{ site.baseurl }}{{ post.url }}">
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </div>
         {% endfor %}
