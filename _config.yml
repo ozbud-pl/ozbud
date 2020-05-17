@@ -28,15 +28,20 @@ exclude:
   - .jekyll-cache
 
 collections:
+  portfolio:
+    output: true
   przemyslowe:
     output: true
+    permalink: /:collection/:name
   zabytkowe:
     output: true
+    permalink: /:collection/:name
   mieszkaniowe:
     output: true
+    permalink: /:collection/:name
   publiczne:
     output: true
-collections_dir: realizacje
+    permalink: /:collection/:name
 
 paginate: 12
-paginate_path: "/aktualnosci/page:num/"
+paginate_path: "aktualnosci/page:num/"
