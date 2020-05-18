@@ -37,6 +37,18 @@ title: OZBUD
       </div>
     </div>
   </div>
+  <!-- AKTUALNOŚCI -->
+  <div class="container-fluid text-dark text-center text-uppercase">
+    <h1>Aktualności</h1>
+    <div class="row">
+      {% for post in site.posts limit: 3 %}
+            <div class="col-md-4 col-12 grid-item p-3">
+            <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}" href="{{ site.baseurl }}{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
   <div class="container text-dark text-center text-uppercase mt-4">
     <h1>Zaufali Nam</h1>
   </div>
