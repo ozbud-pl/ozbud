@@ -7,7 +7,7 @@ plugins_dir:
   - jekyll-sitemap
   - jekyll-paginate
 
-incremental: false
+incremental: true
 
 markdown: kramdown
 
