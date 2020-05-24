@@ -40,11 +40,11 @@ title: OZBUD
   <!-- AKTUALNOŚCI -->
   <div class="container-fluid text-dark text-center text-uppercase">
     <h1>Aktualności</h1>
-    <div class="row">
+    <div class="row pl-2 pr-2">
       {% for post in site.posts limit: 3 %}
-            <div class="col-md-4 col-12 grid-item p-3">
-            <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}" href="{{ site.baseurl }}{{ post.url }}">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <div class="col-md-4 col-12 grid-item p-2">
+            <img class="img-fluid w-100 rounded-lg" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}" href="{{ site.baseurl }}{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}"><h3 class="capitalize text-dark pt-2">{{ post.title }}</h3></a>
             </div>
         {% endfor %}
     </div>
