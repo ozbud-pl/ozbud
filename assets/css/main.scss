@@ -149,6 +149,10 @@ button:focus {
     color: #1D1D1F;
 }
 
+.text-white {
+    color: #ffffff;
+}
+
 h1, .h1 {
     font-size: 3rem;
 }
@@ -191,4 +195,29 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .pagination {
     text-align: center;
+ }
+
+ .rounded-16px {
+     border-radius: 16px;
+ }
+
+ .grd{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 16px;
+    background-color: #ffffff;
+ }
+
+ .grd-dark{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 16px;
+    background-color: rgb(34, 34, 34);
+ }
+
+ .rounded-top {
+     border-top-left-radius: 16px !important;
+     border-top-right-radius: 16px !important;
+ }
+
+ .div-contrast {
+    background-color: #000000;
  }

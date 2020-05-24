@@ -38,19 +38,25 @@ title: OZBUD
     </div>
   </div>
   <!-- AKTUALNOŚCI -->
-  <div class="container-fluid text-dark text-center text-uppercase">
-    <h1>Aktualności</h1>
-    <div class="row pl-2 pr-2">
-      {% for post in site.posts limit: 3 %}
-            <div class="col-md-4 col-12 grid-item p-2">
-            <picture>
-              <source srcset="{{ site.baseurl }}/assets/img/800x600{{ post.feat-img }}" media="(min-width: 1400px)">
-              <source srcset="{{ site.baseurl }}/assets/img/600x600{{ post.feat-img }}" media="(min-width: 768px)">
-              <img class="img-fluid w-100 rounded-lg" src="{{ site.baseurl }}/assets/img/800x600{{ post.feat-img }}">
-            </picture>
-            <a href="{{ site.baseurl }}{{ post.url }}"><h4 class="capitalize text-dark pt-3">{{ post.title }}</h4></a>
+  <div class="container-fluid div-contrast text-white">
+    <div class="container text-center text-uppercase">
+      <h1>Aktualności</h1>
+      <div class="row">
+        {% for post in site.posts limit: 3 %}
+          <div class="col-md-4 col-12 grid-item p-2">
+            <div class="grd-dark">
+              <a href="{{ site.baseurl }}{{ post.url }}">
+                <picture>
+                  <source srcset="{{ site.baseurl }}/assets/img/800x600{{ post.feat-img }}" media="(min-width: 1400px)">
+                  <source srcset="{{ site.baseurl }}/assets/img/600x600{{ post.feat-img }}" media="(min-width: 768px)">
+                  <img class="img-fluid w-100 rounded-top" src="{{ site.baseurl }}/assets/img/800x600{{ post.feat-img }}" style="object-fit: cover;">
+                </picture>
+                <h5 class="capitalize text-white pt-2 pb-3 pl-3 pr-3">{{ post.title }}</h5>
+              </a>
             </div>
+          </div>
         {% endfor %}
+      </div>
     </div>
   </div>
   <div class="container text-dark text-center text-uppercase mt-4">

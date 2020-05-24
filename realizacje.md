@@ -3,15 +3,22 @@ layout: default
 title: Realizacje
 ---
 
-<div class="container text-dark text-center text-uppercase mt-4 pt-navbar">
-    <div class="container">
+<div class="container-fluid text-dark text-center text-uppercase mt-4 pt-navbar">
+    <div class="container-fluid">
         <h1>Mieszkaniowe</h1>
         <div class="row">
             {% for mieszkaniowe in site.mieszkaniowe limit: 4%}
-                {% if mieszkaniowe.title != "Mieszkaniowe" %}
-                    <div class="col-lg-3 col-md-6 col-12">
-                    <img class="img-fluid" src="{{ site.baseurl }}/assets/img/400x300{{ mieszkaniowe.feat-img }}">
-                    <a href="{{ site.baseurl }}{{ mieszkaniowe.url }}">{{ mieszkaniowe.title }}</a>
+                {% if mieszkaniowe.title != "Mieszkaniowe" %}  
+                    <div class="col-xl-3 col-lg-6 col-12">
+                        <div class="grd">
+                            <a href="{{ site.baseurl }}{{ mieszkaniowe.url }}">
+                            <picture>
+                                <source srcset="{{ site.baseurl }}/assets/img/800x600{{ mieszkaniowe.feat-img }}" media="(min-width: 1400px)">
+                                <img class="img-fluid w-100 rounded-top" src="{{ site.baseurl }}/assets/img/800x600{{ mieszkaniowe.feat-img }}" style="object-fit: cover;">
+                            </picture>
+                            <h5 class="capitalize text-dark pt-2 pb-3">{{ mieszkaniowe.title }}</h5>
+                            </a>
+                        </div>
                     </div>
                 {% endif %}
             {% endfor %}
