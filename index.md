@@ -16,10 +16,10 @@ title: OZBUD
     <div class="row">
       <div class="col-md no-padding">
         <picture>
-          <source srcset="assets/img/1000x400/hala-poczta-polska.jpg" media="(min-width: 1600px)">
-          <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1100px)">
-          <source srcset="assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 700px)">
-          <img class="img-fluid d-block w-100" src="assets/img/600x800/hala-poczta-polska.jpg" alt="hala-poczta-polska">
+          <source srcset="{{ site.baseurl }}/assets/img/1000x400/hala-poczta-polska.jpg" media="(min-width: 1600px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1100px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 700px)">
+          <img class="img-fluid d-block w-100" src="{{ site.baseurl }}/assets/img/600x800/hala-poczta-polska.jpg" alt="hala-poczta-polska">
         </picture>
       </div>
       <div class="col-md text-center">
@@ -43,8 +43,12 @@ title: OZBUD
     <div class="row pl-2 pr-2">
       {% for post in site.posts limit: 3 %}
             <div class="col-md-4 col-12 grid-item p-2">
-            <img class="img-fluid w-100 rounded-lg" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}" href="{{ site.baseurl }}{{ post.url }}">
-            <a href="{{ site.baseurl }}{{ post.url }}"><h3 class="capitalize text-dark pt-2">{{ post.title }}</h3></a>
+            <picture>
+              <source srcset="{{ site.baseurl }}/assets/img/800x600{{ post.feat-img }}" media="(min-width: 1400px)">
+              <source srcset="{{ site.baseurl }}/assets/img/600x600{{ post.feat-img }}" media="(min-width: 768px)">
+              <img class="img-fluid w-100 rounded-lg" src="{{ site.baseurl }}/assets/img/800x600{{ post.feat-img }}">
+            </picture>
+            <a href="{{ site.baseurl }}{{ post.url }}"><h4 class="capitalize text-dark pt-3">{{ post.title }}</h4></a>
             </div>
         {% endfor %}
     </div>
