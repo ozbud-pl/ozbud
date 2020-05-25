@@ -14,6 +14,8 @@
     <link rel="mask-icon" href="{{site.baseurl}}/safari-pinned-tab.svg" color="#9d9c9d">
     <meta name="msapplication-TileColor" content="#9d9c9d">
     <meta name="theme-color" content="#9d9c9d">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/044f419790.js" crossorigin="anonymous"></script>
     {% seo %}
   </head>
   <body>

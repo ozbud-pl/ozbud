@@ -9,6 +9,29 @@ title: OZBUD
   {% include carousel.html %}
 
   <!-- CONTENTS -->
+  <!-- FILARY -->
+  <div class="container-fluid div-contrast text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12 grid-item p-2">
+        <i class="fas fa-award fa-3x pt-3 pb-4"></i>
+        <h2 class="text-uppercase">Jakość</h2>
+        <p>Dzięki zastosowaniu sprawdzonych materiałów i technologii jako generalny wykonawca jesteśmy w stanie zagwarantować najwyższą jakość na rynku.</p>
+        </div>
+        <div class="col-md-4 col-12 grid-item p-2">
+        <i class="fas fa-tags fa-3x pt-3 pb-4"></i>
+        <h2 class="text-uppercase">Cena</h2>
+        <p>Proponujemy technologie zamienne, odpowiadające indywidualnym oczekiwaniom inwestora przy zachowaniu minimalnej ceny.</p>
+        </div>
+        <div class="col-md-4 col-12 grid-item p-2">
+        <i class="fas fa-stopwatch fa-3x pt-3 pb-4"></i>
+        <h2 class="text-uppercase">Czas</h2>
+        <p>Rozumiemy, że czas to podstawa udanej organizacji przy realizacji obiektów budowlanych. Dla nas opóźnienia nie wchodzą w rachubę.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- GENERALNY WYKONAWCA -->
   <div class="container text-dark text-center text-uppercase">
   <h1>Generalny Wykonawca</h1>
   </div>
