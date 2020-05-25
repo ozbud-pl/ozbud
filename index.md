@@ -11,20 +11,20 @@ title: OZBUD
   <!-- CONTENTS -->
   <!-- FILARY -->
   <div class="container-fluid div-contrast text-white">
-    <div class="container">
+    <div class="container pt-4 pb-4">
       <div class="row">
-        <div class="col-md-4 col-12 grid-item p-2">
-        <i class="fas fa-award fa-3x pt-3 pb-4"></i>
+        <div class="col-md-4 col-12 grid-item p-3">
+        <i class="fa fa-award fa-3x pt-3 pb-4"></i>
         <h2 class="text-uppercase">Jakość</h2>
         <p>Dzięki zastosowaniu sprawdzonych materiałów i technologii jako generalny wykonawca jesteśmy w stanie zagwarantować najwyższą jakość na rynku.</p>
         </div>
-        <div class="col-md-4 col-12 grid-item p-2">
-        <i class="fas fa-tags fa-3x pt-3 pb-4"></i>
+        <div class="col-md-4 col-12 grid-item p-3">
+        <i class="far fa-money-bill-alt fa-3x pt-3 pb-4"></i>
         <h2 class="text-uppercase">Cena</h2>
         <p>Proponujemy technologie zamienne, odpowiadające indywidualnym oczekiwaniom inwestora przy zachowaniu minimalnej ceny.</p>
         </div>
-        <div class="col-md-4 col-12 grid-item p-2">
-        <i class="fas fa-stopwatch fa-3x pt-3 pb-4"></i>
+        <div class="col-md-4 col-12 grid-item p-3">
+        <i class="fa fa-stopwatch fa-3x pt-3 pb-4"></i>
         <h2 class="text-uppercase">Czas</h2>
         <p>Rozumiemy, że czas to podstawa udanej organizacji przy realizacji obiektów budowlanych. Dla nas opóźnienia nie wchodzą w rachubę.</p>
         </div>
@@ -32,7 +32,7 @@ title: OZBUD
     </div>
   </div>
   <!-- GENERALNY WYKONAWCA -->
-  <div class="container text-dark text-center text-uppercase">
+  <div class="container text-dark text-center text-uppercase pt-4 pb-4">
   <h1>Generalny Wykonawca</h1>
   </div>
   <div class="container-fluid text-dark">
@@ -66,7 +66,7 @@ title: OZBUD
       <h1>Aktualności</h1>
       <div class="row">
         {% for post in site.posts limit: 3 %}
-          <div class="col-md-4 col-12 grid-item p-2">
+          <div class="col-md-4 col-12 grid-item p-3">
             <div class="grd-dark">
               <a href="{{ site.baseurl }}{{ post.url }}">
                 <picture>
@@ -74,7 +74,7 @@ title: OZBUD
                   <source srcset="{{ site.baseurl }}/assets/img/600x600{{ post.feat-img }}" media="(min-width: 768px)">
                   <img class="img-fluid w-100 rounded-top" src="{{ site.baseurl }}/assets/img/800x600{{ post.feat-img }}" style="object-fit: cover;">
                 </picture>
-                <h5 class="capitalize text-white pt-2 pb-3 pl-3 pr-3">{{ post.title }}</h5>
+                <h5 class="capitalize text-white pt-3 pb-4 pl-3 pr-3">{{ post.title }}</h5>
               </a>
             </div>
           </div>
