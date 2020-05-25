@@ -209,15 +209,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
  .grd-dark{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    border-radius: 16px;
-    background-color: rgb(133, 133, 133);
+    border-radius: 8px;
+    background-color: #c3c0c0;
  }
 
  .rounded-top {
-     border-top-left-radius: 16px !important;
-     border-top-right-radius: 16px !important;
+     border-top-left-radius: 8px !important;
+     border-top-right-radius: 8px !important;
  }
 
  .div-contrast {
     background-color: rgba(170, 168, 168, 0.9);
  }
+
+ a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
