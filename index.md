@@ -10,23 +10,41 @@ title: OZBUD
 
   <!-- CONTENTS -->
   <!-- FILARY -->
-  <div class="container-fluid div-contrast text-white">
+  <div class="container-fluid text-dark p-0">
     <div class="container pt-4 pb-4">
       <div class="row">
         <div class="col-md-4 col-12 grid-item p-3">
-        <i class="fa fa-award fa-3x pt-3 pb-4"></i>
-        <h2 class="text-uppercase">Jakość</h2>
-        <p>Dzięki zastosowaniu sprawdzonych materiałów i technologii jako generalny wykonawca jesteśmy w stanie zagwarantować najwyższą jakość na rynku.</p>
+          <div class="row">
+            <div class="col-xl-3 col-md-12 grid-item">
+              <i class="fa fa-award fa-3x pb-4"></i>
+            </div>
+            <div class="col-xl-9 col-md-12 grid-item">
+              <h2 class="text-uppercase">Jakość</h2>
+              <p>Dzięki zastosowaniu sprawdzonych materiałów i technologii jako generalny wykonawca jesteśmy w stanie zagwarantować najwyższą jakość na rynku.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-4 col-12 grid-item p-3">
-        <i class="far fa-money-bill-alt fa-3x pt-3 pb-4"></i>
-        <h2 class="text-uppercase">Cena</h2>
-        <p>Proponujemy technologie zamienne, odpowiadające indywidualnym oczekiwaniom inwestora przy zachowaniu minimalnej ceny.</p>
+          <div class="row">
+            <div class="col-xl-3 col-md-12 grid-item">
+              <i class="far fa-money-bill-alt fa-3x pb-4"></i>
+            </div>
+            <div class="col-xl-9 col-md-12 grid-item">
+              <h2 class="text-uppercase">Cena</h2>
+              <p>Proponujemy technologie zamienne, odpowiadające indywidualnym oczekiwaniom inwestora przy zachowaniu minimalnej ceny.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-4 col-12 grid-item p-3">
-        <i class="fa fa-stopwatch fa-3x pt-3 pb-4"></i>
-        <h2 class="text-uppercase">Czas</h2>
-        <p>Rozumiemy, że czas to podstawa udanej organizacji przy realizacji obiektów budowlanych. Dla nas opóźnienia nie wchodzą w rachubę.</p>
+          <div class="row">
+            <div class="col-xl-3 col-md-12 grid-item">
+              <i class="fa fa-stopwatch fa-3x pb-4"></i>
+            </div>
+            <div class="col-xl-9 col-md-12 grid-item">
+              <h2 class="text-uppercase">Czas</h2>
+              <p>Rozumiemy, że czas to podstawa udanej organizacji przy realizacji obiektów budowlanych. Dla nas opóźnienia nie wchodzą w rachubę.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -35,7 +53,7 @@ title: OZBUD
   <div class="container text-dark text-center text-uppercase pt-4 pb-4">
   <h1>Generalny Wykonawca</h1>
   </div>
-  <div class="container-fluid text-dark">
+  <div class="container-fluid div-contrast text-white">
     <div class="row">
       <div class="col-md no-padding">
         <picture>
@@ -61,7 +79,7 @@ title: OZBUD
     </div>
   </div>
   <!-- AKTUALNOŚCI -->
-  <div class="container-fluid div-contrast text-white">
+  <div class="container-fluid div-contrast text-white p-0">
     <div class="container text-center text-uppercase">
       <h1>Aktualności</h1>
       <div class="row">
