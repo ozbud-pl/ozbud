@@ -119,5 +119,3 @@ title: OZBUD
   </div>
   <!-- SLIDER -->
   {% include slider.html %}
-
-</div>
