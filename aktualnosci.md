@@ -3,15 +3,16 @@ layout: default
 title: Aktualności
 ---
 
-<div class="container-fluid pt-navbar">
-    <div class="row">
-        {% for post in site.posts %}
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </div>
-        {% endfor %}
-    </div>
+<div class="container-fluid no-padding text-dark text-center text-uppercase mt-4 pt-navbar">
+  <h1>Aktualności</h1>
+  <div class="row">
+      {% for post in site.posts %}
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+          <img class="img-fluid" src="{{ site.baseurl }}/assets/img/400x300{{ post.feat-img }}">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </div>
+      {% endfor %}
+  </div>
 </div>
 
 <!-- This loops through the paginated posts -->

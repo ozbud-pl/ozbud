@@ -9,7 +9,7 @@ title: Realizacje
         <div class="row">
             {% for mieszkaniowe in site.mieszkaniowe limit: 4%}
                 {% if mieszkaniowe.title != "Mieszkaniowe" %}  
-                    <div class="col-xl-3 col-lg-6 col-12">
+                    <div class="col-xl-3 col-md-6 col-12">
                         <div class="grd">
                             <a href="{{ site.baseurl }}{{ mieszkaniowe.url }}">
                             <picture>
@@ -29,7 +29,7 @@ title: Realizacje
         <div class="row">
             {% for przemyslowe in site.przemyslowe limit: 4%}
                 {% if przemyslowe.title != "przemyslowe" %}
-                    <div class="col-xl-3 col-lg-6 col-12">
+                    <div class="col-xl-3 col-md-6 col-12">
                         <div class="grd-dark">
                             <a href="{{ site.baseurl }}{{ przemyslowe.url }}">
                             <picture>
@@ -48,7 +48,7 @@ title: Realizacje
         <h1>Zabytki</h1>
             {% for zabytki in site.zabytki limit: 4%}
                 {% if zabytki.title != "zabytki" %}
-                    <div class="col-xl-3 col-lg-6 col-12">
+                    <div class="col-xl-3 col-md-6 col-12">
                         <div class="grd">
                             <a href="{{ site.baseurl }}{{ zabytki.url }}">
                             <picture>
@@ -66,7 +66,7 @@ title: Realizacje
         <h1>Obiekty Publiczne</h1>
         {% for publiczne in site.publiczne limit: 4%}
                 {% if publiczne.title != "publiczne" %}
-                    <div class="col-xl-3 col-lg-6 col-12">
+                    <div class="col-xl-3 col-md-6 col-12">
                         <div class="grd-dark">
                             <a href="{{ site.baseurl }}{{ zabytki.url }}">
                             <picture>
