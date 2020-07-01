@@ -51,26 +51,30 @@ title: OZBUD
   </div>
   <!-- ZAKRES DZIAŁALNOŚCI -->
   <div class="container-fluid div-contrast p-0">
-    <div class="container text-white text-center pt-4 pb-4">
+    <div class="container text-white text-center pt-5 pb-5">
     <h1 class="text-uppercase">Zakres Działalności</h1>
     <p>Projekty od budowy hal przemysłowych po remonty i renowacje realizujemy jako Generalny Wykonawca w zakresie budownictwa kubaturowego wraz z sieciami oraz przyłączami. W naszym przedsiębiorstwie posiadamy departamenty, które odpowiadają za realizację różnych obiektów budowlanych. Realizując inwestycje dla zamawiającego polegamy na sieci zaufanych podwykonawców i dostawców, z którymi współpracujemy od wielu lat.</p>
     </div>
   </div>
-  <div class="container-fluid text-dark">
+  <div class="container-fluid text-dark pt-5 pb-5">
     <div class="row">
-      <div class="col-xl-8 col-md-6 no-padding">
+      <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 col-12 no-padding">
         <picture>
-          <source srcset="{{ site.baseurl }}/assets/img/1000x400/hala-poczta-polska.jpg" media="(min-width: 1500px)">
-          <source srcset="{{ site.baseurl }}/assets/img/1000x600/hala-poczta-polska.jpg" media="(min-width: 1270px)">
-          <source srcset="{{ site.baseurl }}/assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1010px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1400x700/hala-poczta-polska.jpg" media="(min-width: 1600px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1200x700/hala-poczta-polska.jpg" media="(min-width: 1430px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1260px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1000x900/hala-poczta-polska.jpg" media="(min-width: 1110px)">
+          <source srcset="{{ site.baseurl }}/assets/img/600x600/hala-poczta-polska.jpg" media="(min-width: 1065px)">
+          <source srcset="{{ site.baseurl }}/assets/img/600x800/hala-poczta-polska.jpg" media="(min-width: 900px)">
+          <source srcset="{{ site.baseurl }}/assets/img/600x1000/hala-poczta-polska.jpg" media="(min-width: 768px)">
           <img class="img-fluid d-block w-100" src="{{ site.baseurl }}/assets/img/600x800/hala-poczta-polska.jpg" alt="hala-poczta-polska">
         </picture>
       </div>
-      <div class="col-xl-4 col-md-6 text-center p-3">
-        <h3>Budujemy dla przemysłu</h3>
+      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 text-center pt-2 pb-2 pl-4 pr-4">
+        <h3 class="text-uppercase">Budujemy dla przemysłu</h3>
+        <p class="text-justify">Obiekty przemysłowe realizujemy kompleksowo od A do Z, czyli od wstępnej koncepcji po odbiory końcowe wraz z przekazaniem gotowego obiektu przyszłemu użytkownikowi. Nasz zróżnicowany zespół z wieloletnim doświadczeniem pozwala nam na obsługę klienta krajowego oraz zagranicznego na najwyższym poziomie. Nasz wspólny wkład w budownictwo przemysłowe regionu wspomaga rozwój przedsiębiorczości.</p>
         <p class="text-justify">Nasze standardy jakościowe spełniaj wymagania najbardziej wymagajcych klientów z sektora przemysłowego. Dzięki umiejętności prowadzenie plac budowlanych na czynnych obiektach, od lat współpracujemy z parterami takimi jak Volvo czy Bombardier. Dopasujemy się do każdego środowiska pracy.</p>
-        <h3>Certyfikowany partner Astron</h3>
-        <p class="text-justify mb-0">Jako certyfikowany partner firmy ASTRON® dostarczającej systemowe konstrukce stalowe proponujemy rozwiązania charakteryzujące się długą żywotnością oraz atrakcyjną ceną. Zaawansowane metody obliczeniowe oraz zautomatyzowany proces produkcji elementów stalowych gwarantują optymalne wykorzystanie stali.</p>
+        <p class="text-justify">Jako certyfikowany partner firmy ASTRON® dostarczającej systemowe konstrukce stalowe proponujemy rozwiązania charakteryzujące się długą żywotnością oraz atrakcyjną ceną. Zaawansowane metody obliczeniowe oraz zautomatyzowany proces produkcji elementów stalowych gwarantują optymalne wykorzystanie stali.</p>
       </div>
       </div>
     </div>
