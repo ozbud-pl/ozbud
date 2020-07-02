@@ -222,3 +222,14 @@ body a:hover {
     color: inherit;
     text-decoration: underline;
 }
+
+@media only screen and (min-width: 768px){
+    .rounded-r {
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+    }
+    .rounded-l {
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+    }
+}
