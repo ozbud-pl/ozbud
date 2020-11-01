@@ -106,14 +106,14 @@ title: OZBUD
     <div class="row">
       <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 col-12 pt-2 pb-2 no-padding">
         <picture>
-          <source srcset="{{ site.baseurl }}/assets/img/1400x700/hala-poczta-polska.jpg" media="(min-width: 1600px)">
-          <source srcset="{{ site.baseurl }}/assets/img/1200x700/hala-poczta-polska.jpg" media="(min-width: 1430px)">
-          <source srcset="{{ site.baseurl }}/assets/img/1000x800/hala-poczta-polska.jpg" media="(min-width: 1260px)">
-          <source srcset="{{ site.baseurl }}/assets/img/1000x900/hala-poczta-polska.jpg" media="(min-width: 1110px)">
-          <source srcset="{{ site.baseurl }}/assets/img/600x600/hala-poczta-polska.jpg" media="(min-width: 1065px)">
-          <source srcset="{{ site.baseurl }}/assets/img/600x800/hala-poczta-polska.jpg" media="(min-width: 900px)">
-          <source srcset="{{ site.baseurl }}/assets/img/600x1000/hala-poczta-polska.jpg" media="(min-width: 768px)">
-          <img class="img-fluid d-block w-100 rounded-r" src="{{ site.baseurl }}/assets/img/600x800/hala-poczta-polska.jpg" alt="hala-poczta-polska">
+          <source srcset="{{ site.baseurl }}/assets/img/1400x700/budynek_miezkalny_nowe_żerniki.jpg" media="(min-width: 1600px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1200x700/budynek_miezkalny_nowe_żerniki.jpg" media="(min-width: 1430px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1000x800/budynek_miezkalny_nowe_żerniki.jpg" media="(min-width: 1260px)">
+          <source srcset="{{ site.baseurl }}/assets/img/1000x900/budynek_miezkalny_nowe_żerniki.jpg" media="(min-width: 1110px)">
+          <source srcset="{{ site.baseurl }}/assets/img/600x600/budynek_miezkalny_nowe_żerniki.jpg" media="(min-width: 1065px)">
+          <source srcset="{{ site.baseurl }}/assets/img/600x800/budynek_miezkalny_nowe_żerniki.jpg" media="(min-width: 900px)">
+          <source srcset="{{ site.baseurl }}/assets/img/600x1000/budynek_miezkalny_nowe_żerniki.jpg" media="(min-width: 768px)">
+          <img class="img-fluid d-block w-100 rounded-r" src="{{ site.baseurl }}/assets/img/600x800/budynek_miezkalny_nowe_żerniki.jpg" alt="hala-poczta-polska">
         </picture>
       </div>
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 text-center pt-2 pb-2 pl-4 pr-4">
